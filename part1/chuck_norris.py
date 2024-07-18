@@ -1,3 +1,5 @@
+# Chuck Norris jokes with Flask framework
+
 from flask import Flask, jsonify
 import requests
 
@@ -7,11 +9,13 @@ jokes = []
 
 
 def fetch_jokes():
+    # url = 'http://api.icndb.com/jokes/random/'
     url = 'https://official-joke-api.appspot.com/jokes/random?category=chucknorris'
     for _ in range(10):
+        # error handling
         try:
             response = requests.get(url)
-            response.raise_for_status()  # Raise an exception for HTTP errors
+            response.raise_for_status()
             joke_data = response.json()
             jokes.append(joke_data)
         except requests.exceptions.RequestException as e:
@@ -30,4 +34,5 @@ def get_jokes():
 
 
 if __name__ == '__main__':
+    # set the endpoint to http://localhost:5000/getJokes
     app.run(host='localhost', port=5000, debug=True)
