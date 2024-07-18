@@ -1,6 +1,6 @@
 1. How long did you take to complete the technical test?
 
-It took me around 2 hours to complete the first part of the test beacause i encountered an error
+It took me around an hour and 45 minutes to complete the first part of the test beacause i encountered an error
 with accessing the file and had to browse through various resources to try and get the answer,
 and only around 20-30 minutes to complete the second part.
 
