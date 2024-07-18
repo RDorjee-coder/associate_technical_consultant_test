@@ -1,0 +1,42 @@
+1. How long did you take to complete the technical test?
+
+It took me around 2 hours to complete the first part of the test
+and only around 15 minutes to complete the second part.
+
+2. Was it easy or challenging? Which parts of the test was easy, and which was challenging?
+
+The technical test was challenging for me in the first part because I had limited
+familiarity with the Flask framework, and I encountered a 500 internal server error
+when trying to send requests to `url = 'http://api.icndb.com/jokes/random/'`.
+
+The second part, however, was not difficult because I am very familiar with Python and Pandas,
+which made it easy to work with the file. I also had no trouble setting up my GitHub repository
+and using Git commands during the test.
+
+3. What resources did you use to learn how to solve the test (i.e. Google, forums, books)?
+
+I primarily used pycharm CE as my text editor and used the Flask Documentation, Pandas documentation,
+searched for sample codes on GitHub repositories, browsed through stackoverflow, watched few youtube videos,
+and employed debugging techniques with breakpoints during the test.
+
+4. Briefly describe the process that you went through to find the solution for the problem.
+
+During the test, I primarily used the Flask Documentation to understand and solve challenges.
+I also explored sample codes from GitHub repositories, utilized debugging techniques with breakpoints
+to pinpoint errors in the code, browsed Stack Overflow for solutions to similar issues,
+and experimented with dummy values in arrays to ensure error-free code.
+Additionally, I attempted to resolve issues with different URLs but encountered
+401 unauthorized errors along the way. In the end, I experimented with different URLs
+(url = 'https://official-joke-api.appspot.com/jokes/random?category=chucknorris') to fetch the data and
+successfully resolved the issue, achieving the desired JSON output
+
+For the second part, I noticed that the `transaction` column was missing in the `data.xlsx` file,
+and the task required calculating sales and transactions per 15-minute time bucket. To address this,
+I created an additional column named "transaction" and populated it with random values ranging from 0 to 100,
+matching the length of the dataframe. Finally i was able to produce a result in a new csv file.
+
+5. Are there any other key experiences/notes that you would like us to know in regard to your
+experience in taking the test?
+
+I have covered all essential aspects of my test experience, offering brief insights into the challenges
+faced and the solutions applied. Overall, I found the test questions themselves to be fairly straightforward.
